@@ -19,17 +19,19 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Welcome to my world of curiosity and coding! 🚀
+              Welcome to my world of <span className="purple">curiosity</span> and <span className="purple">coding</span>! 🚀
               <br />
               <br />
+              I am Ahmed Najaf, an aspiring data scientist and a master's student in Computer Science with a focus on <span className="purple">Artificial Intelligence</span>.
               <br />
               <br />
+              My journey in the world of programming began when I fell in love with the potential of technology to solve real-world problems. Although I'm just starting, I've already begun my exciting journey into the world of data science and machine learning.
               <br />
               <br />
-              Currently, I'm exploring the fascinating realms of Python, data analysis, and machine learning. My goal is to leverage these skills to make meaningful contributions in the field of Natural Language Processing (NLP) and multilingual learning.
+              Currently, I'm exploring the fascinating realms of <span className="purple">Python</span>, data analysis, and machine learning. My goal is to leverage these skills to make meaningful contributions in the field of <span className="purple">Natural Language Processing (NLP)</span> and multilingual learning.
               <br />
               <br />
-              When I'm not coding, you can find me exploring the intricate nuances of languages and linguistics, pondering over how data science and NLP can revolutionize language acquisition and teaching.
+              When I'm not coding, you can find me exploring the intricate nuances of languages and linguistics, pondering over how data science and <span className="purple">NLP</span> can revolutionize language acquisition and teaching.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
