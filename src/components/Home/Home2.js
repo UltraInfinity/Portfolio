@@ -49,7 +49,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/yourgithubusername"
+                  href="https://github.com/UltraInfinity"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -59,7 +59,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/yourtwitterhandle"
+                  href="https://twitter.com/UltraInfinit"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -79,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/yourinstagramhandle"
+                  href="https://www.instagram.com/anj.cs"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
