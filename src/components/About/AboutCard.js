@@ -8,33 +8,32 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            Hi there, I'm <span className="purple">Ahmed Najaf</span>, currently based in <span className="purple">Your City, Your Country</span>.
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            I'm a passionate student on a journey to master the art of data science and machine learning. Currently, I'm pursuing my MSc in Computer Science with a focus on Artificial Intelligence.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            In addition to my studies, I'm eagerly exploring the fascinating world of Python, data analysis, and machine learning. My goal is to harness the power of data to make a positive impact in the field of Natural Language Processing (NLP).
+            <br />
+            <br />
+            When I'm not diving into data, you'll find me nurturing my love for languages and linguistics. I'm fascinated by how data science and NLP can reshape multilingual learning and teaching.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Exploring New Technologies
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Language Enthusiast
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Aspiring Data Scientist
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Every data point tells a story; I'm here to decode it."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Ahmed Najaf</footer>
         </blockquote>
       </Card.Body>
     </Card>
