@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi there, I'm <span className="purple">Ahmed Najaf</span>.
-            <br />
+            <br /><br />
             I'm a passionate student on a journey to master the art of <span className="purple">Data Science</span> and <span className="purple">Machine Learning</span>. Currently, I'm pursuing my MSc in Computer Science with Artificial Intelligence.
             <br />
             <br />
