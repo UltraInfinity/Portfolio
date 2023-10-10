@@ -8,12 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi there, I'm <span className="purple">Ahmed Najaf</span>, currently based in <span className="purple">Your City, Your Country</span>.
+            Hi there, I'm <span className="purple">Ahmed Najaf</span>.
             <br />
-            I'm a passionate student on a journey to master the art of data science and machine learning. Currently, I'm pursuing my MSc in Computer Science with a focus on Artificial Intelligence.
+            I'm a passionate student on a journey to master the art of <span className="purple">Data Science</span> and <span className="purple">Machine Learning</span>. Currently, I'm pursuing my MSc in Computer Science with Artificial Intelligence.
             <br />
             <br />
-            In addition to my studies, I'm eagerly exploring the fascinating world of Python, data analysis, and machine learning. My goal is to harness the power of data to make a positive impact in the field of Natural Language Processing (NLP).
+            My goal is to harness the power of data to make a positive impact in the field of Natural Language Processing (NLP).
             <br />
             <br />
             When I'm not diving into data, you'll find me nurturing my love for languages and linguistics. I'm fascinated by how data science and NLP can reshape multilingual learning and teaching.
@@ -23,7 +23,7 @@ function AboutCard() {
               <ImPointRight /> Exploring New Technologies
             </li>
             <li className="about-activity">
-              <ImPointRight /> Language Enthusiast
+              <ImPointRight /> Language Buff
             </li>
             <li className="about-activity">
               <ImPointRight /> Aspiring Data Scientist
@@ -31,7 +31,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Every data point tells a story; I'm here to decode it."{" "}
+            "Seeking knowledge from the cradle to the grave is my guiding principle."{" "}
           </p>
           <footer className="blockquote-footer">Ahmed Najaf</footer>
         </blockquote>
