@@ -8,11 +8,9 @@ import {
   SiMacos,
 } from "react-icons/si";
 import { Icon } from '@iconify/react';
-import {
-  googlecolabIcon,
-  anacondaIcon
-}  
-  from '@iconify/icons-simple-icons/googlecolab';
+import googlecolabIcon from '@iconify/icons-simple-icons/googlecolab';
+import { Icon } from '@iconify/react';
+import anacondaIcon from '@iconify/icons-simple-icons/anaconda';
 
 function Toolstack() {
   return (
