@@ -2,12 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+{/*import projectimg from "../../Assets/Projects/img.png";
+  Do the same for any further projects*/}
 
 function Projects() {
   return (
@@ -23,47 +19,43 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
               isBlog={false}
               title="Library Loan Analysis"
-              description="In this university assignment, I designed and implemented a Python program to analyze library loan data. The project involved processing data from two sources: book information and loan records. Using Python, I calculated the popularity of books based on the number of days borrowed and generated a report highlighting the most borrowed books. Additionally, I analyzed book genres, identified trends, and created a report on genre popularity. Lastly, I calculated loan statistics, including total loan days, average loan days, and the percentage of books returned late. This project showcases my data analysis, Python programming, and data visualization skills, providing valuable insights into library usage patterns."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              description="Add description"
+              ghLink="https://github.com/UltraInfinity"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="U.S. Medical Insurance"
+              description="In this data analysis project, I explored and dissected data related to U.S. medical insurance costs. Using Python, I cleaned and organized the data, performed statistical analyses, and created visualizations to uncover insights. This project demonstrates my proficiency in data manipulation, analysis, and visualization techniques, essential skills for data scientists."
+              ghLink="https://github.com/UltraInfinity"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Data Visualization - GDP and Life Expectancy"
+              description="This project showcases my expertise in data visualization. I analyzed data on GDP and life expectancy, transforming raw information into meaningful visual representations. Through graphs and charts, I communicated complex relationships and patterns, highlighting my ability to convey insights effectively to both technical and non-technical audiences."
               ghLink="https://github.com/soumyajit4419/Editor.io"             
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="Biodiversity in National Parks"
+              description="In this data analysis endeavor, I delved into datasets concerning endangered animal populations in national parks. Using data analysis techniques, I extracted valuable information for the National Park Service. This project demonstrates my aptitude for interpreting data, drawing conclusions, and presenting findings to address real-world challenges."
+              ghLink="https://github.com/UltraInfinity"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              /*imgPath={}*/
               isBlog={false}
               title="Ai For Social Good"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
@@ -74,7 +66,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
