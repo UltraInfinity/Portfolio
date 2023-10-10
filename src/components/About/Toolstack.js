@@ -10,6 +10,7 @@ import {
 import { Icon } from '@iconify/react';
 import googlecolabIcon from '@iconify/icons-simple-icons/googlecolab';
 import anacondaIcon from '@iconify/icons-simple-icons/anaconda';
+import notionIcon from '@iconify/icons-simple-icons/notion';
 
 function Toolstack() {
   return (
@@ -34,6 +35,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <Icon icon={anacondaIcon} width="100" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <Icon icon={notionIcon} width="100" />
       </Col>
     </Row>
   );
