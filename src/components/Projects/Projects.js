@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Library Loan Analysis"
+              description="In this university assignment, I designed and implemented a Python program to analyze library loan data. The project involved processing data from two sources: book information and loan records. Using Python, I calculated the popularity of books based on the number of days borrowed and generated a report highlighting the most borrowed books. Additionally, I analyzed book genres, identified trends, and created a report on genre popularity. Lastly, I calculated loan statistics, including total loan days, average loan days, and the percentage of books returned late. This project showcases my data analysis, Python programming, and data visualization skills, providing valuable insights into library usage patterns."
               ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -39,7 +38,6 @@ function Projects() {
               title="Bits-0f-C0de"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -49,8 +47,7 @@ function Projects() {
               isBlog={false}
               title="Editor.io"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/soumyajit4419/Editor.io"             
             />
           </Col>
 
@@ -61,7 +58,6 @@ function Projects() {
               title="Plant AI"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
