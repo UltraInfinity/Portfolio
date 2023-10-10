@@ -2,6 +2,8 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiPython, DiHtml5, DiCss3, DiJavascript1 } from "react-icons/di";
 import { SiR } from "react-icons/si";
+import { Icon } from '@iconify/react';
+import matlabIcon from '@iconify/icons-file-icons/matlab';
 
 function Techstack() {
   return (
@@ -20,6 +22,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiR />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <Icon icon={matlabIcon} width="100" />
       </Col>
     </Row>
   );
