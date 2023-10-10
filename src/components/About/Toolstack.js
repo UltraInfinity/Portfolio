@@ -31,13 +31,13 @@ function Toolstack() {
         <SiVercel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Icon icon={googlecolabIcon} width="100" />
+        <Icon icon={googlecolabIcon} width="75" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Icon icon={anacondaIcon} width="100" />
+        <Icon icon={anacondaIcon} width="75" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Icon icon={notionIcon} width="100" />
+        <Icon icon={notionIcon} width="75" />
       </Col>
     </Row>
   );
