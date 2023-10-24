@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import BookLoanStats from "../../Assets/Projects/BookLoanStats.png";
 {/*import projectimg from "../../Assets/Projects/img.png";
   Do the same for any further projects*/}
 
