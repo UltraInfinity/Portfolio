@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Projects/BookLoanStats}
+              imgPath={BookLoanStats}
               isBlog={false}
               title="Library Loan Analysis"
               description="In this university assignment, I designed and implemented a Python program to analyze library loan data. The project involved processing data from two sources: book information and loan records. Using Python, I calculated the popularity of books based on the number of days borrowed and generated a report highlighting the most borrowed books. Additionally, I analyzed book genres, identified trends, and created a report on genre popularity. Lastly, I calculated loan statistics, including total loan days, average loan days, and the percentage of books returned late. This project showcases my data analysis, Python programming, and data visualization skills, providing valuable insights into library usage patterns."
