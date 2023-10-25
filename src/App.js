@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import BookLoanDemo from "./components/Projects/BookLoanStats";  // Import the demo component
+import BookLoanDemo from "./components/Projects/BookLoanStats/BookLoanDemo";  // Import the demo component
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import {
