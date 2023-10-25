@@ -25,7 +25,7 @@ function Projects() {
               title="BookLoanStats"
               description="In my 'BookLoanStats' project, I delved deep into library book loan data to extract meaningful insights that could enhance the library's operations and shed light on user preferences. By extracting and processing data from 'books.csv' and 'bookloans.csv', I ensured the validity of the data, filtering out any irrelevant entries. A core aspect of my analysis involved defining and calculating the popularity of books based on their loan duration in 2023. Furthermore, I produced detailed reports highlighting the popularity of various book genres, showcasing the number of books borrowed per genre. My project also emphasized statistical analysis, where I meticulously calculated metrics such as total loan days, average loan days, and various late loan statistics without resorting to any specialized statistical packages. To make the results more accessible, I aggregated the analysis outcomes into a JSON file (results.json) and subsequently developed a web interface using HTML, JS, and CSS for an interactive visualization."
               ghLink="https://github.com/UltraInfinity/BookLoanStats"
-              demoLink="https://book-loan-stats.vercel.app/"
+              demoLink="/bookloanstats"
             />
           </Col>
 
