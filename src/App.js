@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import BookLoanDemo from "./components/Projects/BookLoanStats/BookLoanDemo";  // Import the demo component
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import {
@@ -38,15 +37,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
-
-          {/* Adding the route for the BookLoanStats demo */}
-          <Route path="/bookloanstats" element={<BookLoanDemo />} />
-
-          {/* For future project pages, follow the format:
-               <Route path="/your-project-route" element={<YourProjectComponent />} />
-               Replace 'your-project-route' with a suitable path and 'YourProjectComponent' with your component.
-          */}
-
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
@@ -58,4 +48,3 @@ function App() {
 }
 
 export default App;
-
