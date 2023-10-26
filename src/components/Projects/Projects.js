@@ -4,6 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import BookLoanStats from "../../Assets/Projects/BookLoanStats.png";
 import LibrarySystem from "../../Assets/Projects/LibrarySystem.png";
+import Insurance from "../../Assets/Projects/Insurance.png";
+import GDP from "../../Assets/Projects/GDP.png";
+import Biodiversity from "../../Assets/Projects/Biodiversity.png";
+import OkCupid from "../../Assets/Projects/OkCupid.png"
 {/*import projectimg from "../../Assets/Projects/img.png";
   Do the same for any further projects*/}
 
@@ -35,6 +39,16 @@ function Projects() {
               imgPath={LibrarySystem}
               isBlog={false}
               title="LibrarySystem"
+              description="Project In Progress"
+              ghLink="https://github.com/UltraInfinity"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Insurance}
+              isBlog={false}
+              title="U.S. Medical Insurance"
               description="In this data analysis project, I explored and dissected data related to U.S. medical insurance costs. Using Python, I cleaned and organized the data, performed statistical analyses, and created visualizations to uncover insights. This project demonstrates my proficiency in data manipulation, analysis, and visualization techniques, essential skills for data scientists."
               ghLink="https://github.com/UltraInfinity"
             />
@@ -42,6 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={GDP}
               isBlog={false}
               title="Data Visualization - GDP and Life Expectancy"
               description="This project showcases my expertise in data visualization. I analyzed data on GDP and life expectancy, transforming raw information into meaningful visual representations. Through graphs and charts, I communicated complex relationships and patterns, highlighting my ability to convey insights effectively to both technical and non-technical audiences."
@@ -51,6 +66,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Biodiversity}
               isBlog={false}
               title="Biodiversity in National Parks"
               description="In this data analysis endeavor, I delved into datasets concerning endangered animal populations in national parks. Using data analysis techniques, I extracted valuable information for the National Park Service. This project demonstrates my aptitude for interpreting data, drawing conclusions, and presenting findings to address real-world challenges."
@@ -60,17 +76,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              /*imgPath={}*/
-              isBlog={false}
-              title="Group Project - OKCupid Date-A-Scientist"
-              description="Collaboration is an essential skill in the world of data science. In this group project, I worked with a team to leverage machine learning algorithms to analyze OKCupid data. This experience not only highlighted my ability to collaborate effectively but also reinforced my knowledge of machine learning and predictive modeling."
-              ghLink="https://github.com/UltraInfinity"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
+              imgPath={OkCupid}
               isBlog={false}
               title="OkCupid Date-A-Scientist Machine Learning"
               description="This machine learning project showcases my capabilities in building, training, and testing predictive models. Using data from OKCupid, I applied machine learning techniques to make predictions and draw insights. This project reflects my proficiency in machine learning, a critical skill for data scientists."
