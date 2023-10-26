@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import BookLoanStats from "../../Assets/Projects/BookLoanStats.png";
+import LibrarySystem from "../../Assets/Projects/LibrarySystem.png";
 {/*import projectimg from "../../Assets/Projects/img.png";
   Do the same for any further projects*/}
 
@@ -31,8 +32,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={LibrarySystem}
               isBlog={false}
-              title="U.S. Medical Insurance"
+              title="LibrarySystem"
               description="In this data analysis project, I explored and dissected data related to U.S. medical insurance costs. Using Python, I cleaned and organized the data, performed statistical analyses, and created visualizations to uncover insights. This project demonstrates my proficiency in data manipulation, analysis, and visualization techniques, essential skills for data scientists."
               ghLink="https://github.com/UltraInfinity"
             />
