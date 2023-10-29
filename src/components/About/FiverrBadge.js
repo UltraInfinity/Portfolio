@@ -1,7 +1,20 @@
-// FiverrBadge.js
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function FiverrBadge() {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.id = 'fiverr-seller-widget-script-2600f161-6fbd-4f29-9a55-c9acc61d40d0';
+    script.src = 'https://widgets.fiverr.com/api/v1/seller/ahmednajaf2?widget_id=2600f161-6fbd-4f29-9a55-c9acc61d40d0';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div itemscope itemtype='http://schema.org/Person' className='fiverr-seller-widget' style={{ display: 'inline-block' }}>
       <a itemprop='url' href='https://www.fiverr.com/ahmednajaf2' rel="nofollow" target="_blank" style={{ display: 'inline-block' }}>
@@ -13,7 +26,6 @@ function FiverrBadge() {
             <div itemprop='description'>Your description here...</div>
         </div>
       </a>
-      <script id='fiverr-seller-widget-script-2600f161-6fbd-4f29-9a55-c9acc61d40d0' src='https://widgets.fiverr.com/api/v1/seller/ahmednajaf2?widget_id=2600f161-6fbd-4f29-9a55-c9acc61d40d0' data-config='{"category_name":"Programming \u0026 Tech"}' async={true} defer={true}></script>
     </div>
   );
 }
