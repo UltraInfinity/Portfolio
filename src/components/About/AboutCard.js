@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import FiverrBadge from './FiverrBadge';  // Adjust the path if needed
 
 function AboutCard() {
   return (
@@ -35,6 +36,7 @@ function AboutCard() {
           </p>
           <footer className="blockquote-footer">Ahmed Najaf</footer>
         </blockquote>
+        <FiverrBadge />
       </Card.Body>
     </Card>
   );
