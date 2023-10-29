@@ -1,23 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
-
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://widgets.fiverr.com/api/v1/seller/ahmednajaf2?widget_id=2600f161-6fbd-4f29-9a55-c9acc61d40d0';
-    script.async = true;
-    script.defer = true;
-    script.dataset.config = '{"category_name":"Programming \u0026 Tech"}';
-    document.body.appendChild(script);
-
-    // Clean up on component unmount
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
     <Card className="quote-card-view">
       <Card.Body>
@@ -49,25 +34,19 @@ function AboutCard() {
             "Seeking knowledge from the cradle to the grave is my guiding principle."{" "}
           </p>
           <footer className="blockquote-footer">Ahmed Najaf</footer>
-
-          <div 
-            dangerouslySetInnerHTML={{
-              __html: `
-              <div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget' style='display: inline-block;'>
-                <a itemprop='url' href=https://www.fiverr.com/ahmednajaf2 rel="nofollow" target="_blank" style='display: inline-block;'>
-                    <div class='fiverr-seller-content' id='fiverr-seller-widget-content-2600f161-6fbd-4f29-9a55-c9acc61d40d0' itemprop='contentURL' style='display: none;'></div>
-                    <div id='fiverr-widget-seller-data' style='display: none;'>
-                        <div itemprop='name' >ahmednajaf2</div>
-                        <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
-                        <div itemprop='jobtitle'>Seller</div>
-                        <div itemprop='description'>Hi! I'm a Computer Science student with a knack for web design and Python development. I craft responsive static websites using HTML, JavaScript, and CSS, and can also create tailored WordPress designs. Need data analysis or custom Python scripts? I'm your person! I prioritize understanding your needs to deliver top-notch, personalized solutions. Let's bring your ideas to life!</div>
-                    </div>
-                </a>
-              </div>`
-            }}
-          />
-
         </blockquote>
+        <div itemscope itemtype='http://schema.org/Person' className='fiverr-seller-widget' style={{display: 'inline-block'}}>
+    <a itemprop='url' href='https://www.fiverr.com/ahmednajaf2' rel="nofollow" target="_blank" style={{display: 'inline-block'}}>
+        <div className='fiverr-seller-content' id='fiverr-seller-widget-content-2600f161-6fbd-4f29-9a55-c9acc61d40d0' itemprop='contentURL' style={{display: 'none'}}></div>
+        <div id='fiverr-widget-seller-data' style={{display: 'none'}}>
+            <div itemprop='name'>ahmednajaf2</div>
+            <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
+            <div itemprop='jobtitle'>Seller</div>
+            <div itemprop='description'>Hi! I'm a Computer Science student with a knack for web design and Python development...</div>
+        </div>
+    </a>
+</div>
+
       </Card.Body>
     </Card>
   );
